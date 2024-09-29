@@ -23,7 +23,7 @@ async function findMeaning() {
 
     let phonetic = res[0].phonetic;
     // console.log(phonetic);
-
+    dictionary.style.display = "block"
     dictionary.innerHTML = `
     <div class="card">
                 <div class="property">
